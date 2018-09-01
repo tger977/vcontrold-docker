@@ -1,4 +1,4 @@
-FROM resin/rpi-raspbian:wheezy
+FROM debian:latest
 
 RUN apt-get update && \
     apt-get upgrade && \
